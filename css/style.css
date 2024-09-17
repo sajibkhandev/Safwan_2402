@@ -1,0 +1,49 @@
+
+
+
+
+
+/* Navber part Start */
+.navbar-nav{
+    column-gap: 50px;
+}
+
+.nav-link{
+    color: #00413D;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .4s;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+
+}
+
+.nav-link:hover{
+    color: #E5745D;
+}
+.menu_button a::after {
+    width: 186px;
+    height: 66px;
+    border: 2px solid white;
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    content: "";
+}
+.navbar{
+    padding: 30px 0px;
+}
+
+.menu_button a{
+    background: #E5745D;
+    padding: 26px 44px;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#fff;
+    text-decoration: none;
+    position: relative;
+}
+  
+/* Navber part end */
