@@ -1,5 +1,33 @@
 
+/* common css start */
+.common-button {
+    background: #E5745D;
+    width: 196px;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.common-button a{
+    
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#fff;
+    text-decoration: none;
+    position: relative;
 
+}
+.common-button a::after {
+    width: 186px;
+    height: 66px;
+    border: 2px solid white;
+    position: absolute;
+    top: -20px;
+    left: -48px;
+    content: "";
+}
+/* common css end */
 
 
 
@@ -47,3 +75,62 @@
 }
   
 /* Navber part end */
+/* Banner part staert */
+
+.banner{
+    background: #00413D;
+    width: 100%;
+   padding-top: 220px;
+   padding-bottom: 190px;
+   position: relative;
+   overflow: hidden;
+
+ }
+
+ .banner .overly{
+    width: 50%;
+    height: 100%;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right:-50%;
+    transition: .7s;
+ }
+
+ .banner:hover .overly{
+    right: 0;
+
+ }
+ .banner h1{
+    font-family: "Vollkorn", serif;
+    font-size: 100px;
+    font-weight: 700;
+    color:#fff;
+    line-height: 110px;
+
+ }
+ .banner h1 span{
+   display: block;
+   
+ }
+ .banner p{
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:rgba(255, 255, 255,0.5);
+    width: 690px;
+    padding-top: 14px;
+    padding-bottom: 50px;
+    line-height: 30px;
+
+ }
+ .banner p span{
+    font-weight: 700;
+    color:#fff;
+
+ }
+/* Banner part end */
+
