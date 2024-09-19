@@ -3,6 +3,7 @@
 
 .box{
     display: flex;
+    
 }
 .common-button {
     background: #E5745D;
@@ -223,4 +224,45 @@ box-shadow: 0px 0px 37px -18px rgba(0,0,0,0.75);
 
 
 /* service part end */
+/* about part start */
+.about .box{
+    column-gap: 20px;
+}
+.twoImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about .title h4 {
+   
+    text-align: left;
+    margin-left: 80px;
+    
+}
+.about .title h4::after {
+    
+    left: -74px;
+   
+}
+.about .title h4::before {
+    
+    left: -35px;
+    
+}
+.about .title h2 {
+    
+    width: auto;
+   
+    text-align: left;
+}
+.about .right p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #00413D;
+    font-family: "Jost", sans-serif;
+    width: 570px;
+
+}
+/* about part end */
 
