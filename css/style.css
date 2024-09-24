@@ -79,6 +79,13 @@
 
 }
 
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
 /* common css end */
 
 
@@ -290,7 +297,7 @@
 /* progresber part start */
 
 .main_box {
-    width: 270px;
+    width: 100%;
     height: 282px;
     background: white;
     -webkit-box-shadow: 0px 0px 23px -14px rgba(0, 0, 0, 0.75);
@@ -324,3 +331,113 @@
 }
 
 /* progresber part end */
+/* Prject part start */
+
+.project{
+    padding: 60px 0px;
+
+}
+.project .title h4 {
+    padding-left: 80px;
+   
+    text-align: left;
+   
+}
+.project .title h2 {
+    
+    margin: 0 ; 
+    text-align: left;
+}
+.project .title h4::before {
+    
+    left: 32px;
+    
+}
+.project .title h4::after {
+    
+    left: 0%;
+    
+}
+.project .box{
+    justify-content: space-between;
+}
+
+.project .icon ul{
+    display: flex;
+}
+.project .icon ul li{
+    margin: 10px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    color: black;
+    transition: .4s;
+}
+.project .icon ul li:hover{
+    background: #E5745D;
+    color: white;
+    border: transparent;
+
+}
+
+.project .card{
+    margin-top: 40px;
+    border: 0px;
+    width: 100% !important;
+    -webkit-box-shadow: 0px 0px 23px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 23px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 23px -14px rgba(0, 0, 0, 0.75);
+}
+.project .card .card-title{
+   font-size: 16px;
+   color: #E5745D;
+   font-weight: 500;
+   font-family: "Vollkorn", system-ui;
+}
+.project .card .card-text{
+   font-size: 24px;
+   color: #00413D;
+   font-weight: 600;
+   font-family: "Vollkorn", system-ui;
+   width: 310px;
+}
+.project .card .card-text-2{
+   font-size: 16px;
+   color: #00413D;
+   font-weight: 400;
+   font-family: "Jost", sans-serif;
+   width: 289px;
+}
+
+.project .card_box{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    
+  
+}
+.project .card_box a{
+    font-size: 18px;
+    color: #00413D;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    transition: .4s;
+
+}
+.project .card .card_box  .icon{
+    transition: .4s;
+}
+
+.project .card:hover .card_box a{
+    color: #E5745D;
+
+}
+.project .card:hover .card_box  .icon{
+    color: #E5745D ;
+
+}
+/* Prject part end */
