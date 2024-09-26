@@ -81,12 +81,14 @@
 
 }
 
-ul,ol{
+ul,
+ol {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -318,16 +320,17 @@ a{
 
 }
 
-.pain_box{
+.pain_box {
     width: 167px;
     height: 167px;
-   border: 8px solid #E5745D;
+    border: 8px solid #E5745D;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.pain_box h3{
+
+.pain_box h3 {
     color: #E5745D;
     font-size: 34px;
     font-weight: 600;
@@ -337,39 +340,45 @@ a{
 /* progresber part end */
 /* Prject part start */
 
-.project{
+.project {
     padding: 60px 0px;
 
 }
+
 .project .title h4 {
     padding-left: 80px;
-   
+
     text-align: left;
-   
+
 }
+
 .project .title h2 {
-    
-    margin: 0 ; 
+
+    margin: 0;
     text-align: left;
 }
+
 .project .title h4::before {
-    
+
     left: 32px;
-    
+
 }
+
 .project .title h4::after {
-    
+
     left: 0%;
-    
+
 }
-.project .box{
+
+.project .box {
     justify-content: space-between;
 }
 
-.project .icon ul{
+.project .icon ul {
     display: flex;
 }
-.project .icon ul li{
+
+.project .icon ul li {
     margin: 10px;
     width: 44px;
     height: 44px;
@@ -377,18 +386,19 @@ a{
     justify-content: center;
     align-items: center;
     background: white;
-    border: 1px solid rgba(0, 0, 0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     color: black;
     transition: .4s;
 }
-.project .icon ul li:hover{
+
+.project .icon ul li:hover {
     background: #E5745D;
     color: white;
     border: transparent;
 
 }
 
-.project .card{
+.project .card {
     margin-top: 40px;
     border: 0px;
     width: 100% !important;
@@ -396,35 +406,39 @@ a{
     -moz-box-shadow: 0px 0px 23px -14px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 23px -14px rgba(0, 0, 0, 0.75);
 }
-.project .card .card-title{
-   font-size: 16px;
-   color: #E5745D;
-   font-weight: 500;
-   font-family: "Vollkorn", system-ui;
-}
-.project .card .card-text{
-   font-size: 24px;
-   color: #00413D;
-   font-weight: 600;
-   font-family: "Vollkorn", system-ui;
-   width: 310px;
-}
-.project .card .card-text-2{
-   font-size: 16px;
-   color: #00413D;
-   font-weight: 400;
-   font-family: "Jost", sans-serif;
-   width: 289px;
+
+.project .card .card-title {
+    font-size: 16px;
+    color: #E5745D;
+    font-weight: 500;
+    font-family: "Vollkorn", system-ui;
 }
 
-.project .card_box{
+.project .card .card-text {
+    font-size: 24px;
+    color: #00413D;
+    font-weight: 600;
+    font-family: "Vollkorn", system-ui;
+    width: 310px;
+}
+
+.project .card .card-text-2 {
+    font-size: 16px;
+    color: #00413D;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    width: 289px;
+}
+
+.project .card_box {
     display: flex;
     column-gap: 20px;
     align-items: center;
-    
-  
+
+
 }
-.project .card_box a{
+
+.project .card_box a {
     font-size: 18px;
     color: #00413D;
     font-weight: 600;
@@ -432,26 +446,29 @@ a{
     transition: .4s;
 
 }
-.project .card .card_box  .icon{
+
+.project .card .card_box .icon {
     transition: .4s;
 }
 
-.project .card:hover .card_box a{
+.project .card:hover .card_box a {
     color: #E5745D;
 
 }
-.project .card:hover .card_box  .icon{
-    color: #E5745D ;
+
+.project .card:hover .card_box .icon {
+    color: #E5745D;
 
 }
+
 /* Prject part end */
 /* portfolio part start */
 
-.portfolio ul{
+.portfolio ul {
     display: flex;
     column-gap: 35px;
     justify-content: center;
-    
+
     color: #00413D;
     font-size: 16px;
     font-weight: 400;
@@ -461,39 +478,41 @@ a{
 
 }
 
-.portfolio .card{
-    
+.portfolio .card {
+
     width: 100% !important;
     background: #C4C4C4;
     border: 0;
     position: relative;
     transition: .4s;
-   
-   
+
+
 
 }
 
-.portfolio .card .card-body{
+.portfolio .card .card-body {
     margin-top: 420px;
     background: #00413D;
-   
+
 }
-.portfolio .card .card-body .card-title{
+
+.portfolio .card .card-body .card-title {
     color: #fff;
     font-size: 24px;
     font-weight: 500;
     font-family: "Vollkorn", system-ui;
 
 }
+
 .portfolio .card .card-body .card-text {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
     font-family: "Jost", sans-serif;
-    
+
 }
 
-.portfolio .badge{
+.portfolio .badge {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -508,19 +527,75 @@ a{
     transition: .4s;
     opacity: 0;
 }
-.portfolio .badge i{
+
+.portfolio .badge i {
     color: #E5745D;
     font-size: 20px;
 }
-.portfolio .card:hover{
-    background: rgba(0, 65, 61,0.4);
+
+.portfolio .card:hover {
+    background: rgba(0, 65, 61, 0.4);
 
 }
 
-.portfolio .card:hover .badge{
+.portfolio .card:hover .badge {
     opacity: 1;
 
 }
 
 
 /* portfolio part end */
+/* test part start */
+
+.test {
+    padding: 100px 0px;
+    margin: 100px 0px;
+    background: #F9F4F1;
+   
+    
+}
+
+.test .item {
+    width: 100%;
+    
+    background: white;
+    border-top: 8px solid #E5745D;
+    padding: 30px 40px;
+    position: relative;
+    z-index: 2;
+    -webkit-box-shadow: 0px 6px 13px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 13px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 13px -7px rgba(0, 0, 0, 0.75);
+    
+
+}
+.test .item p{
+    color: #00413D;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    width: 446px;
+    
+
+}
+.test .test-box{
+    position: relative;
+}
+
+.test .textImage1 {
+    position: absolute;
+    bottom: -34px;
+    left: 117px;
+    z-index: 1;
+}
+.test .box{
+    padding: 30px 60px;
+    align-items: center;
+    column-gap: 30px;
+}
+.test .box ul{
+    display: flex;
+    column-gap: 5px;
+    color: #FF9F3F;
+}
+/* test part end */
