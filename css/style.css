@@ -1,5 +1,7 @@
 /* common css start */
 
+
+
 .box {
     display: flex;
 
@@ -81,6 +83,8 @@
 
 ul,ol{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 a{
     text-decoration: none;
@@ -441,3 +445,82 @@ a{
 
 }
 /* Prject part end */
+/* portfolio part start */
+
+.portfolio ul{
+    display: flex;
+    column-gap: 35px;
+    justify-content: center;
+    
+    color: #00413D;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Vollkorn", system-ui;
+    padding-top: 24px;
+    padding-bottom: 44px;
+
+}
+
+.portfolio .card{
+    
+    width: 100% !important;
+    background: #C4C4C4;
+    border: 0;
+    position: relative;
+    transition: .4s;
+   
+   
+
+}
+
+.portfolio .card .card-body{
+    margin-top: 420px;
+    background: #00413D;
+   
+}
+.portfolio .card .card-body .card-title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Vollkorn", system-ui;
+
+}
+.portfolio .card .card-body .card-text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    
+}
+
+.portfolio .badge{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: .4s;
+    opacity: 0;
+}
+.portfolio .badge i{
+    color: #E5745D;
+    font-size: 20px;
+}
+.portfolio .card:hover{
+    background: rgba(0, 65, 61,0.4);
+
+}
+
+.portfolio .card:hover .badge{
+    opacity: 1;
+
+}
+
+
+/* portfolio part end */
